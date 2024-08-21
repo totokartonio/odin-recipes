@@ -1,0 +1,38 @@
+* {
+  font-family: verdana;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.content {
+  max-width: 850px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(243, 243, 243);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+img {
+  align-self: center;
+}
+
+ul li:not(:first-child) {
+  margin-top: 5px;
+}
+
+ol li:not(:first-child) {
+  margin-top: 15px;
+}
